@@ -10,13 +10,10 @@ env/
 .ipynb_checkpoints
 *.ipynb_checkpoints
 
-/data/raw/*
-!/data/raw/.gitkeep
-/data/processed/*
-!/data/processed/.gitkeep
-/models/*
-!/models/.gitkeep
-
+/data/raw/*.csv
+/data/raw/*.txt
+/data/raw/*.json
+!/data/raw/*.dvc
 /dvc.lock
 
 .vscode/
